@@ -26,6 +26,6 @@ try
 }
 catch (Exception ex)
 {
-    Console.WriteLine("Ups, no me entendiste. Prueba ingresar solo números enteros o, tal vez te excediste con la longitud del número. :/");
+    Console.WriteLine("Ups, no me entendiste. Prueba ingresar solo números enteros o, tal vez te excediste con la longitud del número. :(");
     Console.Write("La excepción es: " + ex.Message);
 }
